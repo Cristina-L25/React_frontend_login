@@ -6,7 +6,7 @@ import { Layout } from "../components/layout/Layout";
 import "./Principal.css";
 
 export const Principal = () => {
-    const { user } = useAuthContext();
+    const { user } = useAuthContext(); 
     const navigate = useNavigate();
 
     return (
